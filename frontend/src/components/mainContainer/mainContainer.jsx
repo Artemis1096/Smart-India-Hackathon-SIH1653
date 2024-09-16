@@ -5,7 +5,7 @@ import {useNavigate} from "react-router-dom";
 const MainContainer = () => {
   const navigate=useNavigate();
   return (
-    <div>MainContainer
+    <div>
       {/* <button onClick={navigate("/app/userDashboard")}>ds</button> */}
       <Outlet />
     </div>
